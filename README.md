@@ -1,9 +1,9 @@
-#Simple HTTP server written in Java
-##This repos contains a server which can:
+# Simple HTTP server written in Java
+## This repos contains a server which can:
 * Listen and accept a request from a client
 * Respond to a client with the current date and a 200 OK message
 
-##Java classses in use:
+## Java classses in use:
 * **[java.io.IOException](https://docs.oracle.com/javase/7/docs/api/java/io/IOException.html)** to notify about i/o exceptions
 * **[java.net.ServerSocket](https://docs.oracle.com/javase/7/docs/api/java/net/ServerSocket.html)** to implement a socket server that monitors for incoming requests over a network
 * **[java.net.Socket](https://docs.oracle.com/javase/7/docs/api/java/net/Socket.html)** to allow using client sockets (an endpoint for communication between two nodes in a network)
