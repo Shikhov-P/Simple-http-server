@@ -10,13 +10,13 @@
 * **[java.util.Date](https://docs.oracle.com/javase/7/docs/api/java/sql/Date.html)** to handle date format
 
 
-`ServerSocket` methods in use:
+## `ServerSocket` methods in use:
 * accept() (a blocking method that blocks execution until a client connects to the server)
 
-`Socket` methods in use:
+## `Socket` methods in use:
 * getOutputStream() to allow writing to an output stream;
 This method returns an `OutputStream` object to write (output) data into
 * write() to write into a client socket
 
-`String` method in use:
+## `String` method in use:
 * getBytes(charsetName) to encode a string (`httpResponse`) to byte array using a UTF-8 encoding
